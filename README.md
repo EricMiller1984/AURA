@@ -32,3 +32,53 @@ Requirements
     Investigations/Case Management
         The supervisor will assign case responsibility to a primary investigator. (Assignment factors may include the nature of the activity, type of follow-up required, the workload of available investigators, and cases already assigned.)
         Require peer review (other investigators) before public reporting.
+
+System Tables
+
+    Users, Groups, Permissions, Sessions
+
+Common tables
+
+    Classifications:
+    Types:
+    Roles: Subject, witness, investigator,
+    Attributes: Height, weight, temperature, etc.
+
+Lookup Tables
+
+    Subjects:
+    Category:
+    Countries:
+    States:
+    Cities:
+    Languages:
+    Religions:
+    Geology:
+    Climate
+    Astronomical:
+
+Data tables (Main Data)
+
+    Locations: Haunted or mysterious places,
+    Location Points: GPS coordinates (can have multiple – Bermuda Triangle, etc.)
+    Persons: Subject, investigator, witness or person with paranormal abilities, members of families, organizations, etc.)
+    Phenomena: Orbs, Street light interference, levitation etc.)
+    Abilities: Telepathy, invisibility, immortality, etc.)
+    Manifestations:Apparitions, hallucinations, visions, phantoms, etc.
+    Beings: Cryptids, aliens, creatures, spirits, fairies, etc.
+    Objects: Phantom ships, cursed or haunted objects, everyday objects related to an incident, event, location, etc.
+    Effects: Electromagnetic, Atmospheric, Perception, Physical.
+    Organizations: Secret, government, historical, etc.
+    Societies: Secret Orders, Societies and Fraternities.
+    Families: Royal families, crime families, etc.
+    Corporations: Can be associated with locations, events, phenomena, people and objects.
+
+Cases/Investigation tables
+
+    Investigations: Preliminary, field investigation, follow up.
+    Investigators: Bio, image, contact information, current investigations, status, etc.
+    Equipment: Types, check-out/in, assigned to, etc.
+    Events: Events are single happenings in one location.
+    Incidents: An incident can include more than one event spanning multiple locations with multiple persons, objects, phenomena, etc.
+    Narratives: Witness testimony, investigator reporting, historical, outline, etc.
+    Media: Documents, images, video, audio, data from field equipment, etc.
